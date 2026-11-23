@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#073f35">
+  <title>صدقة جارية</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="logo.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="brand">
+    <img src="logo.svg" alt="شعار صدقة جارية">
+    <div>
+      <h1>صدقة جارية</h1>
+      <p>طريق للخير والذكر</p>
+    </div>
+  </div>
+  <button id="themeBtn" class="theme">☼</button>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="ornament">۞</div>
+    <h2>وَاذْكُرُوا اللَّهَ كَثِيرًا</h2>
+    <p>اجعل لسانك عامرًا بذكر الله</p>
+    <div class="dedication">
+      صدقة جارية على روح المرحوم والمغفور له بإذن الله أحمد جمال
+    </div>
+  </section>
+
+  <section class="section-head">
+    <h2>أقسام التطبيق</h2>
+    <span>اختر ما تحب</span>
+  </section>
+
+  <nav class="tiles">
+    <button class="tile" data-section="quran">
+      <span>۞</span>
+      <b>القرآن الكريم</b>
+      <small>تلاوة وتدبر</small>
+    </button>
+
+    <button class="tile" data-section="hadith">
+      <span>❖</span>
+      <b>الأحاديث النبوية</b>
+      <small>من مصادر موثوقة</small>
+    </button>
+
+    <button class="tile" data-section="duas">
+      <span>🤲</span>
+      <b>الأدعية</b>
+      <small>أدعية من القرآن والسنة</small>
+    </button>
+
+    <button class="tile" data-section="adhkar">
+      <span>✦</span>
+      <b>الأذكار</b>
+      <small>صباح ومساء وغيرها</small>
+    </button>
+
+    <button class="tile" data-section="tasbeeh">
+      <span>◉</span>
+      <b>السبحة الإلكترونية</b>
+      <small>تابع تسبيحك</small>
+    </button>
+
+    <button class="tile" data-section="qibla">
+      <span>⌖</span>
+      <b>اتجاه القبلة</b>
+      <small>تحديد الاتجاه</small>
+    </button>
+  </nav>
+
+  <section id="panel" class="panel" hidden>
+    <button id="closePanel" class="close">رجوع ×</button>
+    <h2 id="panelTitle"></h2>
+    <p id="panelText"></p>
+    <div id="panelContent"></div>
+  </section>
+
+  <section class="quote">
+    <span>﴿</span>
+    <p>فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلَا تَكْفُرُونِ</p>
+    <small>سورة البقرة — الآية ١٥٢</small>
+  </section>
+</main>
+
+<footer>نسأل الله القبول والنفع والأجر</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
